@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   render() {
-    return <Container>"asdasdas"</Container>;
+    return <Container>{"asdasdas"}</Container>;
   }
 }
 

@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   render() {
-    return <Container>{"asdasdas"}</Container>;
+    return <Container>{process.env.REACT_APP_HELLO}</Container>;
   }
 }
 

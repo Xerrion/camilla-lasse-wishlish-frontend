@@ -9,7 +9,7 @@ export const getPersons = () => dispatch => {
   api
     .get("/persons/")
     .then(response =>
-      dispatch({ type: personActions.GET_ALL, payload: response.data })
+      dispatch({ type: personActions.GET_ALL, payload: response.data.persons })
     );
 };
 
